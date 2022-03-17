@@ -14,10 +14,10 @@
           <element id="module-output" name="hapi-fhir-base-test-jaxrsserver-kotlin" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="hapi-fhir-jaxrsserver-base-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-jaxrsserver-base-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-jaxrsserver-base" />
           </element>
-          <element id="archive" name="hapi-fhir-base-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-base-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-base" />
           </element>
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1" />
@@ -30,11 +30,11 @@
           <element id="library" level="project" name="Maven: com.google.guava:failureaccess:1.0.1" />
           <element id="library" level="project" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.33" />
-          <element id="archive" name="hapi-fhir-client-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-client-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-client" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" />
-          <element id="archive" name="hapi-fhir-server-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-server-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-server" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.3.15" />
@@ -60,30 +60,30 @@
           <element id="library" level="project" name="Maven: com.github.bbottema:emailaddress-rfc2822:2.2.0" />
           <element id="library" level="project" name="Maven: com.github.bbottema:jetbrains-runtime-annotations:1.0.0" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.4" />
-          <element id="archive" name="hapi-fhir-structures-hl7org-dstu2-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-structures-hl7org-dstu2-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-structures-hl7org-dstu2" />
           </element>
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu2:5.6.36" />
-          <element id="archive" name="hapi-fhir-structures-dstu2.1-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu2:5.6.27" />
+          <element id="archive" name="hapi-fhir-structures-dstu2.1-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-structures-dstu2.1" />
           </element>
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu2016may:5.6.36" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu2016may:5.6.27" />
           <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
-          <element id="archive" name="hapi-fhir-structures-dstu2-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-structures-dstu2-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-structures-dstu2" />
           </element>
-          <element id="archive" name="hapi-fhir-structures-dstu3-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-structures-dstu3-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-structures-dstu3" />
           </element>
           <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.8.1" />
           <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.13.0" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.utilities:5.6.36" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu3:5.6.36" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.utilities:5.6.27" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu3:5.6.27" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
-          <element id="archive" name="hapi-fhir-structures-r4-6.0.0-PRE6-SNAPSHOT.jar">
+          <element id="archive" name="hapi-fhir-structures-r4-5.7.1-SNAPSHOT.jar">
             <element id="module-output" name="hapi-fhir-structures-r4" />
           </element>
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.r4:5.6.36" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.r4:5.6.27" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.2" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.4.44.v20210927" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />

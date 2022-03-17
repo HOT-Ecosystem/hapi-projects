@@ -117,6 +117,8 @@
     <file url="file://$PROJECT_DIR$/hapi-fhir/hapi-tinder-test/target/generated-resources/tinder" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hapi-fhir/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hapi-fhir/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hapi-fhir/target/generated-resources/tinder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hapi-fhir/target/generated-sources/properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-mindeps-client/src/main/java" charset="UTF-8" />
@@ -145,11 +147,14 @@
     <file url="file://$PROJECT_DIR$/modules/testpage-overlay-module/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plain-server-build/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plain-server-build/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter/spring-boot/local/console/log.txt" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter/spring-boot/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter/spring-boot/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter-build/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter-build/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter-old/spring-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter-old/spring-boot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter-old/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/jpaserver-starter-old/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/parent-pom/jpaserver-starter-build/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/parent-pom/jpaserver-starter-build/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/projects/parent-pom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/projects/parent-pom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structures-build/src/main/java" charset="UTF-8" />

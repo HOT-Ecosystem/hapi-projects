@@ -5,7 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-uhnfhirtest" />
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-testpage-overlay" />
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin" />
-    <file type="web" url="file://$PROJECT_DIR$/projects/jpaserver-starter/spring-boot" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/jpaserver-starter-old/spring-boot" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

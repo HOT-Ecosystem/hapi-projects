@@ -7,15 +7,24 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/hapi-builds.iml" filepath="$PROJECT_DIR$/.idea/hapi-builds.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-deployable-pom/hapi-deployable-pom.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-deployable-pom/hapi-deployable-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-android/hapi-fhir-android.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-android/hapi-fhir-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-base/hapi-fhir-base.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-base/hapi-fhir-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin/hapi-fhir-base-test-jaxrsserver-kotlin.iml" filepath="$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin/hapi-fhir-base-test-jaxrsserver-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-mindeps-client/hapi-fhir-base-test-mindeps-client.iml" filepath="$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-mindeps-client/hapi-fhir-base-test-mindeps-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-mindeps-server/hapi-fhir-base-test-mindeps-server.iml" filepath="$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-mindeps-server/hapi-fhir-base-test-mindeps-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-batch/hapi-fhir-batch.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-batch/hapi-fhir-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-bom/hapi-fhir-bom.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-bom/hapi-fhir-bom.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-checkstyle/hapi-fhir-checkstyle.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-checkstyle/hapi-fhir-checkstyle.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-api/hapi-fhir-cli-api.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-api/hapi-fhir-cli-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-app/hapi-fhir-cli-app.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-app/hapi-fhir-cli-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-jpaserver/hapi-fhir-cli-jpaserver.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-jpaserver/hapi-fhir-cli-jpaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-client/hapi-fhir-client.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-client/hapi-fhir-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-client-okhttp/hapi-fhir-client-okhttp.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-client-okhttp/hapi-fhir-client-okhttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-converter/hapi-fhir-converter.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-converter/hapi-fhir-converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-dist/hapi-fhir-dist.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-dist/hapi-fhir-dist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-docs/hapi-fhir-docs.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-docs/hapi-fhir-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jaxrsserver-base/hapi-fhir-jaxrsserver-base.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jaxrsserver-base/hapi-fhir-jaxrsserver-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpa/hapi-fhir-jpa.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpa/hapi-fhir-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-base/hapi-fhir-jpaserver-base.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-base/hapi-fhir-jpaserver-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-cql/hapi-fhir-jpaserver-cql.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-cql/hapi-fhir-jpaserver-cql.iml" />
@@ -24,9 +33,17 @@
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-searchparam/hapi-fhir-jpaserver-searchparam.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-searchparam/hapi-fhir-jpaserver-searchparam.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-subscription/hapi-fhir-jpaserver-subscription.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-subscription/hapi-fhir-jpaserver-subscription.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-test-utilities/hapi-fhir-jpaserver-test-utilities.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-test-utilities/hapi-fhir-jpaserver-test-utilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-uhnfhirtest/hapi-fhir-jpaserver-uhnfhirtest.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-uhnfhirtest/hapi-fhir-jpaserver-uhnfhirtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-server/hapi-fhir-server.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-server/hapi-fhir-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-server-mdm/hapi-fhir-server-mdm.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-server-mdm/hapi-fhir-server-mdm.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-server-openapi/hapi-fhir-server-openapi.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-server-openapi/hapi-fhir-server-openapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-autoconfigure/hapi-fhir-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-autoconfigure/hapi-fhir-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-client-apache/hapi-fhir-spring-boot-sample-client-apache.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-client-apache/hapi-fhir-spring-boot-sample-client-apache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-client-okhttp/hapi-fhir-spring-boot-sample-client-okhttp.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-client-okhttp/hapi-fhir-spring-boot-sample-client-okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-server-jersey/hapi-fhir-spring-boot-sample-server-jersey.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-server-jersey/hapi-fhir-spring-boot-sample-server-jersey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-samples.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-starter/hapi-fhir-spring-boot-starter.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-starter/hapi-fhir-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-sql-migrate/hapi-fhir-sql-migrate.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-sql-migrate/hapi-fhir-sql-migrate.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-storage/hapi-fhir-storage.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-storage/hapi-fhir-storage.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-structures-dstu2/hapi-fhir-structures-dstu2.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-structures-dstu2/hapi-fhir-structures-dstu2.iml" />
@@ -44,9 +61,10 @@
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-r4/hapi-fhir-validation-resources-r4.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-r4/hapi-fhir-validation-resources-r4.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-r5/hapi-fhir-validation-resources-r5.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-r5/hapi-fhir-validation-resources-r5.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-tinder-plugin/hapi-tinder-plugin.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-tinder-plugin/hapi-tinder-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-tinder-test/hapi-tinder-test.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-tinder-test/hapi-tinder-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-server-build/jpa-base-server-build.iml" filepath="$PROJECT_DIR$/jpa-server-build/jpa-base-server-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/jpaserver-module/jpaserver-module.iml" filepath="$PROJECT_DIR$/modules/jpaserver-module/jpaserver-module.iml" />
-      <module fileurl="file://$PROJECT_DIR$/projects/jpaserver-starter/jpaserver-starter.iml" filepath="$PROJECT_DIR$/projects/jpaserver-starter/jpaserver-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter-build.iml" filepath="$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/projects/parent-pom/parent-pom.iml" filepath="$PROJECT_DIR$/projects/parent-pom/parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/server-module/server-module.iml" filepath="$PROJECT_DIR$/modules/server-module/server-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/projects/jpaserver-starter/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/projects/jpaserver-starter/spring-boot/spring-boot.iml" />

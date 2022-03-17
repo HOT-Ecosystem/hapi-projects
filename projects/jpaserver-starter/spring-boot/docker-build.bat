@@ -1,1 +1,0 @@
-docker build --tag sessaid/tims-hapi:latest --tag sessaid/tims-hapi:5.7 -m 4g .

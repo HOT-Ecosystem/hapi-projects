@@ -5,20 +5,21 @@
     <parent>
         <artifactId>com.essaid.hapi.project.parent-pom</artifactId>
         <groupId>com.essaid.hapi.project</groupId>
-        <version>5.7.1-BUILDS-SNAPSHOT</version>
+        <version>5.7.1-SNAPSHOT</version>
         <relativePath>../parent-pom/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>com.essaid.hapi.project.jpaserver-starter</artifactId>
+    <artifactId>jpaserver-starter-build</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-boot</module>
+        <module>jpaserver-starter</module>
         <module>../../modules/jpaserver-module</module>
         <module>../../hapi-fhir/hapi-fhir-jpaserver-cql</module>
         <module>../../hapi-fhir/hapi-fhir-jpaserver-mdm</module>
         <module>../../hapi-fhir/hapi-fhir-jpaserver-test-utilities</module>
+        <module>../../hapi-fhir/hapi-fhir-testpage-overlay</module>
     </modules>
 
 </project>
