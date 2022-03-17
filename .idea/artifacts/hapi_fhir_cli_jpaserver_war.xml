@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hapi-fhir-cli-jpaserver:war">
+    <output-path>$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-jpaserver/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hapi-fhir-cli-jpaserver</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hapi-fhir-cli-jpaserver.war">
+      <element id="artifact" artifact-name="hapi-fhir-cli-jpaserver:war exploded" />
+    </root>
+  </artifact>
+</component>

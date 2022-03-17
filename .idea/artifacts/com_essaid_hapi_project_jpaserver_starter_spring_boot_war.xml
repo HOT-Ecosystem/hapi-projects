@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.essaid.hapi.project.jpaserver-starter.spring-boot:war">
+    <output-path>$PROJECT_DIR$/projects/jpaserver-starter/spring-boot/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>com.essaid.hapi.project.jpaserver-starter.spring-boot</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ROOT.war">
+      <element id="artifact" artifact-name="com.essaid.hapi.project.jpaserver-starter.spring-boot:war exploded" />
+    </root>
+  </artifact>
+</component>

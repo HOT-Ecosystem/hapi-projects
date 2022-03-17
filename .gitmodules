@@ -1,0 +1,4 @@
+[submodule "hapi-fhir"]
+	path = hapi-fhir
+	url = git@github.com:ShahimEssaid/hapi-fhir.git
+	branch = hb__rel_5_7

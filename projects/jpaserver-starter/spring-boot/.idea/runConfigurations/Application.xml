@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="hapi-fhir-jpaserver-starter" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ca.uhn.fhir.jpa.starter.Application" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+    <method v="2">
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

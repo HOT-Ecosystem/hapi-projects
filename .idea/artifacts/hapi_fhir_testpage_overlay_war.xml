@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hapi-fhir-testpage-overlay:war">
+    <output-path>$PROJECT_DIR$/hapi-fhir/hapi-fhir-testpage-overlay/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hapi-fhir-testpage-overlay</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hapi-fhir-testpage-overlay-5.7.1-BUILDS-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hapi-fhir-testpage-overlay:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>com.essaid.hapi.project.parent-pom</artifactId>
+        <groupId>com.essaid.hapi.project</groupId>
+        <version>5.7.1-BUILDS-SNAPSHOT</version>
+        <relativePath>../parent-pom/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>com.essaid.hapi.project.jpaserver-starter</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-boot</module>
+        <module>../../modules/jpaserver-module</module>
+        <module>../../hapi-fhir/hapi-fhir-jpaserver-cql</module>
+        <module>../../hapi-fhir/hapi-fhir-jpaserver-mdm</module>
+        <module>../../hapi-fhir/hapi-fhir-jpaserver-test-utilities</module>
+    </modules>
+
+</project>
