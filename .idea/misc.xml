@@ -5,7 +5,9 @@
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-uhnfhirtest" />
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-testpage-overlay" />
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter" />
     <file type="web" url="file://$PROJECT_DIR$/projects/jpaserver-starter-old/spring-boot" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/web-ui-build/web-ui" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,36 +15,48 @@
         <option value="$PROJECT_DIR$/hapi-fhir/pom.xml" />
         <option value="$PROJECT_DIR$/parent-pom/pom.xml" />
         <option value="$PROJECT_DIR$/plain-server-build/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-structures-r4/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-client/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-r4/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-test-utilities/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-structures-r5/pom.xml" />
         <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-structures-hl7org-dstu2/pom.xml" />
         <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-base/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-deployable-pom/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-checkstyle/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-mdm/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-server-mdm/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-searchparam/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-subscription/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-sql-migrate/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-model/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-storage/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-converter/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-structures-dstu2.1/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-dstu2.1/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-batch/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-server-openapi/pom.xml" />
         <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-base/pom.xml" />
         <option value="$PROJECT_DIR$/projects/parent-pom/pom.xml" />
         <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/pom.xml" />
         <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-cql/pom.xml" />
-        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-test-utilities/pom.xml" />
+        <option value="$PROJECT_DIR$/modules/base-module/pom.xml" />
+        <option value="$PROJECT_DIR$/modules/tinder-module/pom.xml" />
+        <option value="$PROJECT_DIR$/projects/web-ui-build/pom.xml" />
+        <option value="$PROJECT_DIR$/projects/jpaserver-starter-build/pom.xml" />
+        <option value="$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-tinder-test/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-android/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-bom/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/hapi-fhir-cli-app/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-cli/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-client-okhttp/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-dist/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-docs/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-jaxrsserver-base/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-server/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-client-apache/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-client-okhttp/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/hapi-fhir-spring-boot-sample-server-jersey/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-samples/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/hapi-fhir-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-structures-dstu3/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-dstu2/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-dstu3/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/hapi-fhir-validation-resources-r5/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-mindeps-client/pom.xml" />
+        <option value="$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-mindeps-server/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

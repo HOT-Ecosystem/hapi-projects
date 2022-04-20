@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpaserver-starter:war">
+    <output-path>$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpaserver-starter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ROOT.war">
+      <element id="artifact" artifact-name="jpaserver-starter:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: co.elastic.apm:apm-agent-api:1.28.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/co/elastic/apm/apm-agent-api/1.28.4/apm-agent-api-1.28.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/co/elastic/apm/apm-agent-api/1.28.4/apm-agent-api-1.28.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/co/elastic/apm/apm-agent-api/1.28.4/apm-agent-api-1.28.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

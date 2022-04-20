@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/src/main/webapp/WEB-INF/templates-starter/tmpl-footer.html" value="file://$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/src/main/webapp/WEB-INF/templates-starter" />
+        <entry key="file://$PROJECT_DIR$/projects/web-ui-build/web-ui/src/main/webapp/WEB-INF/templates/home.html" value="file://$PROJECT_DIR$/projects/web-ui-build/web-ui/src/main/webapp/WEB-INF/templates" />
+      </map>
+    </option>
+  </component>
+</project>

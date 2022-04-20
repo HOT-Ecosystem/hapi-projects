@@ -3,10 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>com.essaid.hapi.project.parent-pom</artifactId>
-        <groupId>com.essaid.hapi.project</groupId>
+        <groupId>ca.uhn.hapi.fhir</groupId>
+        <artifactId>hapi-fhir</artifactId>
         <version>5.7.1-SNAPSHOT</version>
-        <relativePath>../parent-pom/pom.xml</relativePath>
+        <relativePath>../../hapi-fhir</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

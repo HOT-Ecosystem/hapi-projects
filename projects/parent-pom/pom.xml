@@ -11,7 +11,7 @@
         <relativePath>../../hapi-fhir/pom.xml</relativePath>
     </parent>
 
-    <groupId>com.essaid.hapi.project</groupId>
+<!--    <groupId>com.essaid.hapi.project</groupId>-->
     <artifactId>com.essaid.hapi.project.parent-pom</artifactId>
     <packaging>pom</packaging>
 
