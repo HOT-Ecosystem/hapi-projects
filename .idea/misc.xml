@@ -25,7 +25,6 @@
         <option value="$PROJECT_DIR$/modules/tinder-module/pom.xml" />
         <option value="$PROJECT_DIR$/projects/web-ui-build/pom.xml" />
         <option value="$PROJECT_DIR$/projects/jpaserver-starter-build/pom.xml" />
-        <option value="$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/pom.xml" />
         <option value="$PROJECT_DIR$/hapi-fhir/hapi-tinder-test/pom.xml" />
       </list>
     </option>
@@ -59,4 +58,9 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
+  </component>
 </project>

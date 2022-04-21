@@ -3,9 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>ca.uhn.hapi.fhir</groupId>
+        <groupId>com.essaid.hapi-fhir</groupId>
         <artifactId>hapi-fhir</artifactId>
-        <version>5.7.1-SNAPSHOT</version>
+        <version>5.7.2-ts1-SNAPSHOT</version>
         <relativePath>../../hapi-fhir</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>

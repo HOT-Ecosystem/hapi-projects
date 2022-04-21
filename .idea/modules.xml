@@ -41,7 +41,6 @@
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-tinder-plugin/hapi-tinder-plugin.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-tinder-plugin/hapi-tinder-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapi-fhir/hapi-tinder-test/hapi-tinder-test.iml" filepath="$PROJECT_DIR$/hapi-fhir/hapi-tinder-test/hapi-tinder-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/jpaserver-module/jpaserver-module.iml" filepath="$PROJECT_DIR$/modules/jpaserver-module/jpaserver-module.iml" />
-      <module fileurl="file://$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/jpaserver-starter.iml" filepath="$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/jpaserver-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter-build.iml" filepath="$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/projects/parent-pom/parent-pom.iml" filepath="$PROJECT_DIR$/projects/parent-pom/parent-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/server-module/server-module.iml" filepath="$PROJECT_DIR$/modules/server-module/server-module.iml" />

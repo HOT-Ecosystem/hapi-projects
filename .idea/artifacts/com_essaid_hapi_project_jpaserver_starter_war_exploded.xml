@@ -14,7 +14,9 @@
           <element id="module-output" name="com.essaid.hapi.project.jpaserver-starter" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-testpage-overlay:classes:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-testpage-overlay-5.7.2-ts1-SNAPSHOT-classes.jar">
+            <element id="module-output" name="hapi-fhir-testpage-overlay" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-security:2.6.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.6.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.6.2" />
@@ -25,7 +27,13 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.6.1" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-crypto:5.6.1" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.6.1" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.6.2" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.6.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.6.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.18" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.4.44.v20210927" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-client:9.4.44.v20210927" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-client:9.4.44.v20210927" />
@@ -42,7 +50,9 @@
           <element id="library" level="project" name="Maven: com.github.bbottema:emailaddress-rfc2822:2.2.0" />
           <element id="library" level="project" name="Maven: com.github.bbottema:jetbrains-runtime-annotations:1.0.0" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.33" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-base:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-base-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-base" />
+          </element>
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.1" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.1" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.1" />
@@ -57,8 +67,12 @@
           <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.3" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.33" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.2" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-jpaserver-subscription:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-jpaserver-searchparam:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-jpaserver-subscription-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-jpaserver-subscription" />
+          </element>
+          <element id="archive" name="hapi-fhir-jpaserver-searchparam-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-jpaserver-searchparam" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework.retry:spring-retry:1.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.hibernate.search:hibernate-search-mapper-orm:6.0.3.Final" />
           <element id="library" level="project" name="Maven: org.hibernate.search:hibernate-search-mapper-pojo-base:6.0.3.Final" />
@@ -68,10 +82,16 @@
           <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.4" />
           <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.15" />
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP-java7:2.4.13" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-storage:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-jpaserver-model:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-storage-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-storage" />
+          </element>
+          <element id="archive" name="hapi-fhir-jpaserver-model-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-jpaserver-model" />
+          </element>
           <element id="library" level="project" name="Maven: org.fhir:ucum:1.0.3" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-jpa:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-jpa-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-jpa" />
+          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:5.6.2.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-java8:5.6.2.Final" />
           <element id="library" level="project" name="Maven: net.ttddyy:datasource-proxy:1.7" />
@@ -86,55 +106,72 @@
           <element id="library" level="project" name="Maven: org.glassfish.jaxb:txw2:3.0.0" />
           <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:4.0.0" />
           <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.1.5.Final" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-validation-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-validation" />
+          </element>
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.validation:5.6.27" />
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu2016may:5.6.27" />
           <element id="library" level="project" name="Maven: net.sf.saxon:Saxon-HE:9.5.1-5" />
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.utilities:5.6.27" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.3.15" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.18" />
           <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.14.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-websocket:5.3.15" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.3.15" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.15" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-jpaserver-base:5.7.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-websocket:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.18" />
+          <element id="archive" name="hapi-fhir-jpaserver-base-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-jpaserver-base" />
+          </element>
           <element id="library" level="project" name="Maven: com.fasterxml.woodstox:woodstox-core:6.2.5" />
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:4.2.1" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-csv:1.8" />
           <element id="library" level="project" name="Maven: co.elastic.apm:apm-agent-api:1.28.4" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-client:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-client-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-client" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-server:5.7.1-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.springframework.batch:spring-batch-core:4.3.3" />
           <element id="library" level="project" name="Maven: io.micrometer:micrometer-core:1.5.14" />
           <element id="library" level="project" name="Maven: org.latencyutils:LatencyUtils:2.0.3" />
           <element id="library" level="project" name="Maven: javax.batch:javax.batch-api:1.0" />
           <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.2" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.4" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-server-mdm:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-server-mdm-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-server-mdm" />
+          </element>
           <element id="library" level="project" name="Maven: info.debatty:java-string-similarity:1.2.1" />
           <element id="library" level="project" name="Maven: net.jcip:jcip-annotations:1.0" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-sql-migrate:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.15" />
+          <element id="archive" name="hapi-fhir-sql-migrate-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-sql-migrate" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.18" />
           <element id="library" level="project" name="Maven: org.flywaydb:flyway-core:8.4.1" />
           <element id="library" level="project" name="Maven: org.flywaydb:flyway-sqlserver:8.4.1" />
           <element id="library" level="project" name="Maven: org.flywaydb:flyway-mysql:8.4.1" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-dstu2:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-structures-dstu2-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-structures-dstu2" />
+          </element>
           <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.8.1" />
           <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.13.0" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-r4:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-structures-r4-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-structures-r4" />
+          </element>
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.r4:5.6.27" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-r5:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-structures-r5-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-structures-r5" />
+          </element>
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.r5:5.6.27" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-hl7org-dstu2:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-structures-hl7org-dstu2-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-structures-hl7org-dstu2" />
+          </element>
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu2:5.6.27" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation-resources-dstu2:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation-resources-dstu3:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation-resources-r4:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation-resources-r5:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-batch:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-validation-resources-r4-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-validation-resources-r4" />
+          </element>
+          <element id="archive" name="hapi-fhir-batch-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-batch" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework.batch:spring-batch-infrastructure:4.3.3" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.22.0-GA" />
           <element id="library" level="project" name="Maven: com.healthmarketscience.sqlbuilder:sqlbuilder:3.0.2" />
@@ -152,10 +189,9 @@
           <element id="library" level="project" name="Maven: com.github.fge:btf:1.2" />
           <element id="library" level="project" name="Maven: com.github.dnault:xml-patch:0.3.1" />
           <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.18" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:2.6.1" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.6.1" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.15" />
           <element id="library" level="project" name="Maven: org.glassfish:javax.el:3.0.0" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.17.1" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.17.1" />
@@ -220,13 +256,20 @@
           <element id="library" level="project" name="Maven: com.github.andrewoma.dexx:collection:0.7" />
           <element id="library" level="project" name="Maven: org.apache.jena:jena-iri:4.2.0" />
           <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.5.0" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-jpaserver-cql:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-jpaserver-cql-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-jpaserver-cql" />
+          </element>
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.dstu3:5.6.27" />
           <element id="library" level="project" name="Maven: org.opencds.cqf.cql:evaluator.engine:1.2.0" />
           <element id="library" level="project" name="Maven: org.opencds.cqf.cql:evaluator:1.2.0" />
           <element id="library" level="project" name="Maven: org.opencds.cqf.cql:evaluator.fhir:1.2.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation-resources-dstu3:5.3.2" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation-resources-r4:5.3.2" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-validation-resources-r5:5.3.2" />
           <element id="library" level="project" name="Maven: javax:javaee-api:8.0.1" />
           <element id="library" level="project" name="Maven: org.opencds.cqf.cql:evaluator.cql2elm:1.2.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-client:5.3.2" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-base:5.3.2" />
           <element id="library" level="project" name="Maven: org.mapstruct:mapstruct:1.4.2.Final" />
           <element id="library" level="project" name="Maven: org.opencds.cqf.cql:engine:1.5.1" />
           <element id="library" level="project" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics:0.12.0" />
@@ -242,6 +285,11 @@
           <element id="library" level="project" name="Maven: xpp3:xpp3_xpath:1.1.4c" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.1" />
           <element id="library" level="project" name="Maven: org.opencds.cqf.cql:engine.fhir:1.5.1" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-dstu2:5.2.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-hl7org-dstu2:5.2.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:5.2.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-r4:5.2.0" />
+          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-structures-r5:5.2.0" />
           <element id="library" level="project" name="Maven: info.cqframework:cql-to-elm:1.5.2" />
           <element id="library" level="project" name="Maven: info.cqframework:cql:1.5.2" />
           <element id="library" level="project" name="Maven: org.antlr:antlr4-runtime:4.9.1" />
@@ -253,9 +301,15 @@
           <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.1" />
           <element id="library" level="project" name="Maven: com.jamesmurty.utils:java-xmlbuilder:1.2" />
           <element id="library" level="project" name="Maven: net.iharder:base64:2.3.8" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-jpaserver-mdm:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-server-openapi:5.7.1-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:hapi-fhir-converter:5.7.1-SNAPSHOT" />
+          <element id="archive" name="hapi-fhir-jpaserver-mdm-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-jpaserver-mdm" />
+          </element>
+          <element id="archive" name="hapi-fhir-server-openapi-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-server-openapi" />
+          </element>
+          <element id="archive" name="hapi-fhir-converter-5.7.2-ts1-SNAPSHOT.jar">
+            <element id="module-output" name="hapi-fhir-converter" />
+          </element>
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.convertors:5.6.27" />
           <element id="library" level="project" name="Maven: ca.uhn.hapi.fhir:org.hl7.fhir.r4b:5.6.27" />
           <element id="library" level="project" name="Maven: io.swagger.core.v3:swagger-models:2.1.12" />
@@ -267,8 +321,8 @@
           <element id="library" level="project" name="Maven: com.vladsch.flexmark:flexmark:0.50.40" />
           <element id="library" level="project" name="Maven: com.vladsch.flexmark:flexmark-util:0.50.40" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.9" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.3.15" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.3.18" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.18" />
           <element id="library" level="project" name="Maven: org.webjars.npm:bootstrap:4.5.2" />
           <element id="library" level="project" name="Maven: org.webjars.npm:popper.js:1.16.1" />
           <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:3.0.14.RELEASE" />
@@ -276,7 +330,7 @@
           <element id="library" level="project" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.30" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.18" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.9.0" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.10.0" />
           <element id="library" level="project" name="Maven: com.h2database:h2:2.1.210" />
@@ -296,18 +350,13 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.6.2" />
           <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" />
           <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.6.2" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.6.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.1" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.1" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.6.2" />
           <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.12.4" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/projects/jpaserver-starter-build/jpaserver-starter/target/ROOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="com.essaid.hapi.project.jpaserver-starter/web/Web" />
+      <element id="javaee-facet-resources" facet="jpaserver-starter/web/Web" />
     </root>
   </artifact>
 </component>

@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="hapi-fhir-testpage-overlay-5.7.2.war">
+    <root id="archive" name="hapi-fhir-testpage-overlay-5.7.2-ts1-SNAPSHOT.war">
       <element id="artifact" artifact-name="hapi-fhir-testpage-overlay:war exploded" />
     </root>
   </artifact>

@@ -8,17 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hapi-fhir-server-openapi" />
         <module name="hapi-fhir-storage" />
-        <module name="hapi-fhir-structures-hl7org-dstu2" />
         <module name="hapi-fhir-jpaserver-searchparam" />
+        <module name="hapi-fhir-structures-hl7org-dstu2" />
         <module name="hapi-fhir-jpaserver-test-utilities" />
+        <module name="hapi-fhir-jpaserver-subscription" />
         <module name="hapi-fhir-jpaserver-base" />
         <module name="hapi-fhir-checkstyle" />
         <module name="hapi-fhir-batch" />
+        <module name="hapi-tinder-plugin" />
+        <module name="hapi-fhir-testpage-overlay" />
         <module name="hapi-fhir-test-utilities" />
-        <module name="hapi-fhir-base" />
+        <module name="base-module" />
         <module name="hapi-fhir-jpaserver-mdm" />
+        <module name="hapi-fhir-base" />
         <module name="hapi-fhir-jpaserver-uhnfhirtest" />
         <module name="hapi-fhir-jpaserver-cql" />
+        <module name="hapi-tinder-test" />
         <module name="hapi-fhir-structures-dstu2.1" />
         <module name="hapi-fhir-validation-resources-r4" />
         <module name="hapi-fhir-structures-r5" />
@@ -26,31 +31,30 @@
         <module name="hapi-fhir-converter" />
         <module name="structures-r4-module" />
         <module name="hapi-fhir-sql-migrate" />
-        <module name="hapi-fhir-server-mdm" />
-        <module name="hapi-fhir-cli-jpaserver" />
-        <module name="client-module" />
-        <module name="jpaserver-starter" />
-        <module name="hapi-fhir-structures-dstu2" />
-        <module name="hapi-fhir-jpa" />
-        <module name="hapi-fhir-jpaserver-subscription" />
-        <module name="hapi-tinder-plugin" />
-        <module name="hapi-fhir-testpage-overlay" />
-        <module name="base-module" />
-        <module name="hapi-tinder-test" />
-        <module name="web-ui" />
         <module name="structures-r5-module" />
         <module name="hapi-fhir-validation" />
+        <module name="hapi-fhir-server-mdm" />
         <module name="hapi-fhir-client" />
+        <module name="hapi-fhir-cli-jpaserver" />
         <module name="hapi-fhir-jpaserver-model" />
-        <module name="com.essaid.hapi.project.jpaserver-starter" />
         <module name="hapi-fhir-validation-resources-dstu2.1" />
+        <module name="com.essaid.hapi.project.jpaserver-starter" />
+        <module name="client-module" />
+        <module name="hapi-fhir-jpa" />
+        <module name="hapi-fhir-structures-dstu2" />
+      </profile>
+      <profile name="Annotation profile for com.essaid.hapi.project.web-ui-build" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="web-ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base-module" target="1.8" />
       <module name="client-module" target="1.8" />
       <module name="com.essaid.hapi.builds.base-module" target="1.5" />
-      <module name="com.essaid.hapi.project.jpaserver-starter" target="8" />
+      <module name="com.essaid.hapi.project.jpaserver-starter" target="1.8" />
       <module name="com.essaid.hapi.project.jpaserver-starter (1)" target="8" />
       <module name="hapi-deployable-pom" target="11" />
       <module name="hapi-fhir" target="11" />
@@ -91,7 +95,7 @@
       <module name="hapi-fhir-spring-boot-sample-server-jersey" target="1.8" />
       <module name="hapi-fhir-spring-boot-samples" target="11" />
       <module name="hapi-fhir-spring-boot-starter" target="1.8" />
-      <module name="hapi-fhir-sql-migrate" target="8" />
+      <module name="hapi-fhir-sql-migrate" target="1.8" />
       <module name="hapi-fhir-storage" target="1.8" />
       <module name="hapi-fhir-structures-dstu2" target="1.8" />
       <module name="hapi-fhir-structures-dstu2.1" target="1.8" />
@@ -109,10 +113,10 @@
       <module name="hapi-fhir-validation-resources-r5" target="1.8" />
       <module name="hapi-tinder-plugin" target="1.8" />
       <module name="hapi-tinder-test" target="1.8" />
-      <module name="jpaserver-module" target="1.5" />
-      <module name="jpaserver-starter" target="8" />
+      <module name="jpaserver-module" target="11" />
+      <module name="jpaserver-starter" target="1.5" />
       <module name="jpaserver-starter-build" target="11" />
-      <module name="parent-pom" target="11" />
+      <module name="parent-pom" target="1.5" />
       <module name="server-module" target="11" />
       <module name="structures-dstu2-module" target="1.5" />
       <module name="structures-dstu3-module" target="1.5" />
@@ -120,8 +124,8 @@
       <module name="structures-r5-module" target="1.8" />
       <module name="testpage-overlay-module" target="1.5" />
       <module name="tinder-module" target="1.5" />
-      <module name="web-ui" target="1.8" />
-      <module name="web-ui-build" target="11" />
+      <module name="web-ui" target="1.5" />
+      <module name="web-ui-build" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
