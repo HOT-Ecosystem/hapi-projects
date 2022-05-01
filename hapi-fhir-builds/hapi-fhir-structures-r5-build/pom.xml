@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.essaid.hapi-fhir.projects</groupId>
+        <artifactId>com.essaid.hapi-fhir.projects.parent</artifactId>
+        <version>5.7.2-ts1-SNAPSHOT</version>
+        <relativePath>../../projects/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>com.essaid.hapi-fhir.hapi-fhir-structures-r5-build</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>../../hapi-fhir/hapi-fhir-structures-r5</module>
+    </modules>
+
+    <profiles>
+        <profile>
+            <id>full</id>
+            <modules>
+                <module>../../hapi-fhir/hapi-fhir-checkstyle</module>
+                <module>../../hapi-fhir/hapi-fhir-base</module>
+                <module>../../hapi-fhir/hapi-fhir-client</module>
+                <module>../../hapi-fhir/hapi-fhir-validation-resources-r5</module>
+                <module>../../hapi-fhir/hapi-fhir-server</module>
+                <module>../../hapi-fhir/hapi-fhir-test-utilities</module>
+            </modules>
+        </profile>
+    </profiles>
+
+</project>

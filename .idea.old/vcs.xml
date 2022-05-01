@@ -3,6 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hapi-fhir" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/projects/project-jpaserver-starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projects/jpaserver-starter-project" vcs="Git" />
   </component>
 </project>

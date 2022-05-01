@@ -8,21 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hapi-fhir-storage" />
         <module name="hapi-fhir-server-openapi" />
-        <module name="hapi-fhir-structures-hl7org-dstu2" />
         <module name="hapi-fhir-jpaserver-searchparam" />
+        <module name="hapi-fhir-structures-hl7org-dstu2" />
         <module name="hapi-fhir-jpaserver-test-utilities" />
         <module name="hapi-fhir-base-test-mindeps-client" />
         <module name="hapi-fhir-android" />
         <module name="hapi-fhir-jpaserver-base" />
         <module name="hapi-fhir-checkstyle" />
         <module name="hapi-fhir-batch" />
+        <module name="jpaserver-starter-project" />
         <module name="hapi-fhir-docs" />
         <module name="hapi-fhir-test-utilities" />
         <module name="hapi-fhir-validation-resources-dstu3" />
         <module name="hapi-fhir-validation-resources-dstu2" />
+        <module name="hapi-fhir-jpaserver-mdm" />
         <module name="hapi-fhir-cli-api" />
         <module name="hapi-fhir-base" />
-        <module name="hapi-fhir-jpaserver-mdm" />
         <module name="hapi-fhir-cli-app" />
         <module name="hapi-fhir-jpaserver-uhnfhirtest" />
         <module name="hapi-fhir-spring-boot-starter" />
@@ -32,27 +33,26 @@
         <module name="hapi-fhir-spring-boot-sample-client-okhttp" />
         <module name="hapi-fhir-structures-r5" />
         <module name="hapi-fhir-structures-r4" />
-        <module name="hapi-fhir-jaxrsserver-base" />
         <module name="hapi-fhir-converter" />
-        <module name="hapi-fhir-validation-resources-r5" />
+        <module name="hapi-fhir-jaxrsserver-base" />
         <module name="hapi-fhir-sql-migrate" />
+        <module name="hapi-fhir-validation-resources-r5" />
         <module name="hapi-fhir-server-mdm" />
         <module name="hapi-fhir-cli-jpaserver" />
         <module name="hapi-fhir-base-test-jaxrsserver-kotlin" />
         <module name="hapi-fhir-client-okhttp" />
-        <module name="hapi-fhir-jpa" />
         <module name="hapi-fhir-structures-dstu2" />
+        <module name="hapi-fhir-jpa" />
         <module name="hapi-fhir-structures-dstu3" />
+        <module name="web-ui-project" />
         <module name="hapi-fhir-spring-boot-sample-server-jersey" />
         <module name="hapi-fhir-jpaserver-subscription" />
         <module name="hapi-fhir-spring-boot-autoconfigure" />
         <module name="hapi-tinder-plugin" />
         <module name="hapi-fhir-testpage-overlay" />
-        <module name="com.essaid.hapi-fhir.jpaserver-starter-project" />
         <module name="hapi-tinder-test" />
         <module name="hapi-fhir-server" />
         <module name="hapi-fhir-validation" />
-        <module name="com.essaid.hapi-fhir.projects.project-web-ui" />
         <module name="hapi-fhir-spring-boot-sample-client-apache" />
         <module name="hapi-fhir-client" />
         <module name="hapi-fhir-jpaserver-model" />
@@ -60,5 +60,21 @@
         <module name="hapi-fhir-base-test-mindeps-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.essaid.hapi-fhir.hapi-fhir-base-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-client-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-jpaserver-base-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-server-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-structures-dstu2-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-structures-dstu3-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-structures-r4-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-structures-r5-build" target="11" />
+      <module name="com.essaid.hapi-fhir.hapi-fhir-testpage-overlay-build" target="11" />
+      <module name="com.essaid.hapi-fhir.jpaserver-starter-project" target="1.8" />
+      <module name="com.essaid.hapi-fhir.projects.project-jpaserver-starter-build" target="11" />
+      <module name="com.essaid.hapi-fhir.projects.project-web-ui" target="1.8" />
+      <module name="com.essaid.hapi.project.project-web-ui-build" target="11" />
+      <module name="om.essaid.hapi-fhir.hapi-tinder-plugin-build" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

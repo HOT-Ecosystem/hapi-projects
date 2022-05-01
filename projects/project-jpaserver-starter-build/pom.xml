@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.essaid.hapi-fhir.projects</groupId>
+        <artifactId>com.essaid.hapi-fhir.projects.parent</artifactId>
+        <version>5.7.2-ts1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>com.essaid.hapi-fhir.projects.project-jpaserver-starter-build</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>../project-jpaserver-starter</module>
+    </modules>
+
+    <profiles>
+        <profile>
+            <id>full</id>
+            <modules>
+
+                <module>../../hapi-fhir/hapi-fhir-checkstyle</module>
+                <module>../../hapi-fhir/hapi-fhir-base</module>
+                <module>../../hapi-fhir/hapi-fhir-client</module>
+                <module>../../hapi-fhir/hapi-fhir-server</module>
+                <module>../../hapi-fhir/hapi-fhir-test-utilities</module>
+
+                <module>../../hapi-fhir/hapi-fhir-jpaserver-base</module>
+
+                <module>../../hapi-fhir/hapi-fhir-structures-dstu2</module>
+                <module>../../hapi-fhir/hapi-fhir-validation-resources-dstu2</module>
+
+                <module>../../hapi-fhir/hapi-tinder-plugin</module>
+                <module>../../hapi-fhir/hapi-fhir-structures-dstu3</module>
+                <module>../../hapi-fhir/hapi-fhir-validation-resources-dstu3</module>
+                <module>../../hapi-fhir/hapi-fhir-structures-hl7org-dstu2</module>
+                <module>../../hapi-fhir/hapi-fhir-structures-r4</module>
+                <module>../../hapi-fhir/hapi-fhir-validation-resources-r4</module>
+                <module>../../hapi-fhir/hapi-fhir-structures-r5</module>
+                <module>../../hapi-fhir/hapi-fhir-validation-resources-r5</module>
+
+                <module>../../hapi-fhir/hapi-fhir-server-mdm</module>
+                <module>../../hapi-fhir/hapi-fhir-storage</module>
+                <module>../../hapi-fhir/hapi-fhir-batch</module>
+                <module>../../hapi-fhir/hapi-fhir-jpaserver-subscription</module>
+                <module>../../hapi-fhir/hapi-fhir-jpaserver-searchparam</module>
+                <module>../../hapi-fhir/hapi-fhir-sql-migrate</module>
+                <module>../../hapi-fhir/hapi-fhir-jpaserver-model</module>
+                <module>../../hapi-fhir/hapi-fhir-jpa</module>
+                <module>../../hapi-fhir/hapi-fhir-validation</module>
+                <module>../../hapi-fhir/hapi-fhir-converter</module>
+                <module>../../hapi-fhir/hapi-fhir-structures-dstu2.1</module>
+                <module>../../hapi-fhir/hapi-fhir-validation-resources-dstu2.1</module>
+                <module>../../hapi-fhir/hapi-fhir-server-openapi</module>
+                <module>../../hapi-fhir/hapi-fhir-jpaserver-cql</module>
+                <module>../../hapi-fhir/hapi-fhir-jpaserver-mdm</module>
+                <module>../../hapi-fhir/hapi-fhir-jpaserver-test-utilities</module>
+                <module>../../hapi-fhir/hapi-fhir-testpage-overlay</module>
+            </modules>
+        </profile>
+    </profiles>
+
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.essaid.hapi-fhir</groupId>
+    <artifactId>com.essaid.hapi-fhir.root-aggregator</artifactId>
+    <version>5.7.2-ts1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <description>This POM is meant to simplify operations like opening in an IDE, changing version, building all
+        projects, etc. through the listed modules. All listed modules will be affected, transitively.
+    </description>
+
+    <modules>
+        <module>hapi-fhir</module>
+        <module>projects</module>
+
+    </modules>
+
+    <profiles>
+        <profile>
+            <!-- DO NOT USE FROM MAVEN -->
+            <!--            This profile is intended to be used to import modules into an IDE like IntelliJ.
+            Enabling this profile in IntelliJ, and reloading the Maven configuration, will import these modules into the IDE in case it's useful to do so.-->
+            <id>ide-import-all</id>
+            <modules>
+                <module>hapi-fhir-builds/hapi-fhir-base-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-client-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-jpaserver-base-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-server-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-structures-dstu2-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-structures-dstu3-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-structures-r4-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-structures-r5-build</module>
+                <module>hapi-fhir-builds/hapi-fhir-testpage-overlay-build</module>
+                <module>hapi-fhir-builds/hapi-tinder-plugin-build</module>
+                <module>projects/project-jpaserver-starter-build</module>
+                <module>projects/project-web-ui-build</module>
+            </modules>
+        </profile>
+    </profiles>
+
+</project>

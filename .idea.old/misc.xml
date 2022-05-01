@@ -6,8 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-jpaserver-uhnfhirtest" />
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/hapi-fhir-testpage-overlay" />
     <file type="web" url="file://$PROJECT_DIR$/hapi-fhir/tests/hapi-fhir-base-test-jaxrsserver-kotlin" />
-    <file type="web" url="file://$PROJECT_DIR$/projects/project-jpaserver-starter" />
-    <file type="web" url="file://$PROJECT_DIR$/projects/project-web-ui" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/jpaserver-starter-project" />
+    <file type="web" url="file://$PROJECT_DIR$/projects/web-ui-project" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -16,5 +16,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
+  </component>
 </project>

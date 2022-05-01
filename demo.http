@@ -1,0 +1,5 @@
+GET https://tx.fhir.org/r4/metadata
+
+
+< demo.http
+> myfile.txt

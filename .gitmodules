@@ -1,6 +1,6 @@
 [submodule "hapi-fhir"]
 	path = hapi-fhir
 	url = git@github.com:ShahimEssaid/hapi-fhir.git
-[submodule "projects/jpaserver-starter-build/jpaserver-starter"]
-	path = projects/jpaserver-starter-build/jpaserver-starter
+[submodule "projects/jpaserver-starter-project"]
+	path = projects/jpaserver-starter-project
 	url = git@github.com:ShahimEssaid/hapi-fhir-jpaserver-starter.git
