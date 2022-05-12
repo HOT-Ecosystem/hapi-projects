@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
     <option name="ACTIVE_PROFILES" />
-    <module name="project-jpaserver-starter" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="TSApplication" />
+    <module name="com.essaid.hapi-fhir.jpaserver-starter-project" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.essaid.hapi.ts.Application" />
     <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     <extension name="coverage">
       <pattern>
